@@ -12,8 +12,8 @@ public class ProjectPage {
     }
 
     public void createProject(String projectName) {
-        page.click("button#create-project");
-        page.fill("input[name='projectName']", projectName);
-        page.click("button#submit-project");
+        page.click("td.checkbox-cell:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a");
+//        page.fill("input[name='projectName']", projectName);
+//        page.click("button#submit-project");
     }
 }

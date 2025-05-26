@@ -2,6 +2,7 @@ package FirstTestSuit.pages;
 
 
 import com.microsoft.playwright.Page;
+import com.microsoft.playwright.options.AriaRole;
 
 public class LoginPage {
     private final Page page;
@@ -13,6 +14,6 @@ public class LoginPage {
     public void login(String username, String password) {
         page.fill("#username", username);
         page.fill("#password", password);
-        page.click("button[type='submit']");
+        page.getByRole(AriaRole.BUTTON, new Page.GetByRoleOptions().setName("Sign In")).click();
     }
 }
