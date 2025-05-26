@@ -12,15 +12,15 @@ public class Form1AData {
         data.put("city", "Chico");
         data.put("state", "CA");
         data.put("zip", "95973");
-        data.put("permitNumber", "TBD");
+        data.put("permitNumber", "TBS");
         data.put("permitDate", "2024-10-30");
-        data.put("buildingDepartment", "Butte County");
+        data.put("buildingDepartment", "Alien");
         data.put("ahj", "Local Building Department"); // replace with real option
         data.put("buildingType", "Single-Family");
         data.put("dwellingUnitName", "Line H 102824");
         data.put("conditionedFloorArea", "1862");
         data.put("numSCSystems", "1");
-        data.put("numBedrooms", "3");
+        data.put("numBedrooms", "4");
         data.put("climateZone", "9");
         data.put("homeOwnerFirstName", "Jane");
         data.put("homeOwnerLastName", "Smith");
