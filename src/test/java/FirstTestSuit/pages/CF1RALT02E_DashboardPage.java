@@ -4,11 +4,11 @@ import com.microsoft.playwright.*;
 import com.microsoft.playwright.options.*;
 import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
 
-public class DashboardPage {
+public class CF1RALT02E_DashboardPage {
     private final Page page;
     private Page popupPage;
 
-    public DashboardPage(Page page) {
+    public CF1RALT02E_DashboardPage(Page page) {
         this.page = page;
     }
 

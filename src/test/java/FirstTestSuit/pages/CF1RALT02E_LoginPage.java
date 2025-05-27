@@ -4,11 +4,11 @@ import com.microsoft.playwright.*;
 import com.microsoft.playwright.options.*;
 import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
 
-public class LoginPage {
+public class CF1RALT02E_LoginPage {
     private final Page page;
     private final String url = "https://manage.demo.goldenstateregistry.org/admin";
 
-    public LoginPage(Page page) {
+    public CF1RALT02E_LoginPage(Page page) {
         this.page = page;
     }
 
