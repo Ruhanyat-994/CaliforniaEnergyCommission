@@ -1,14 +1,13 @@
 package FirstTestSuit.pages;
 
-import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
 
 import java.util.Map;
 
-public class Form1APage {
+public class CF1RALT02E {
     private final Page page;
 
-    public Form1APage(Page page) {
+    public CF1RALT02E(Page page) {
         this.page = page;
     }
 
