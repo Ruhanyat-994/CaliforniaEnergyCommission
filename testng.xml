@@ -2,7 +2,7 @@
 <suite name="Playwright Suite">
     <test name="Playwright Tests">
         <classes>
-            <class name="FirstTestSuit.test.CF1RALT02E_Test"/>
+            <class name="FirstTestSuit.test.CF1RALT02E.CF1RALT02E_Test"/>
         </classes>
     </test>
 </suite>

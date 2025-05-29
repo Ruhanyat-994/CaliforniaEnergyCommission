@@ -1,4 +1,4 @@
-package FirstTestSuit.pages;
+package FirstTestSuit.pages.CF1RALT02E;
 
 import com.microsoft.playwright.*;
 import com.microsoft.playwright.options.*;

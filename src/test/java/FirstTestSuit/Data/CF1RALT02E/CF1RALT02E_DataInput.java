@@ -1,4 +1,4 @@
-package FirstTestSuit.DataInput;
+package FirstTestSuit.Data.CF1RALT02E;
 
 import com.microsoft.playwright.*;
 import com.microsoft.playwright.options.AriaRole;

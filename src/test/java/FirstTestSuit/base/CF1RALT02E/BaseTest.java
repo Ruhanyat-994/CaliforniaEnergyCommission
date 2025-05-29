@@ -1,4 +1,4 @@
-package FirstTestSuit.base;
+package FirstTestSuit.base.CF1RALT02E;
 
 import com.microsoft.playwright.*;
 
