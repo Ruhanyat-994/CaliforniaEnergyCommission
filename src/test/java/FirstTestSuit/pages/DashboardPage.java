@@ -1,14 +1,14 @@
-package FirstTestSuit.pages.CF1RALT02E;
+package FirstTestSuit.pages;
 
 import com.microsoft.playwright.*;
 import com.microsoft.playwright.options.*;
 import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
 
-public class CF1RALT02E_DashboardPage {
+public class DashboardPage {
     private final Page page;
     private Page popupPage;
 
-    public CF1RALT02E_DashboardPage(Page page) {
+    public DashboardPage(Page page) {
         this.page = page;
     }
 

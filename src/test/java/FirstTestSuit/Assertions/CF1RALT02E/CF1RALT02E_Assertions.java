@@ -12,8 +12,8 @@ public class CF1RALT02E_Assertions {
         try {
             assertCatch.run();
             System.out.println("✅ " + description);
-        } catch (AssertionError e) {
-            System.out.println("❌ " + description + ": " + e.getMessage());
+        } catch (AssertionError error) {
+            System.out.println("❌ " + description + ": " + error.getMessage());
         }
     }
 

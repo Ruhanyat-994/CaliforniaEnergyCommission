@@ -1,14 +1,14 @@
-package FirstTestSuit.pages.CF1RALT02E;
+package FirstTestSuit.pages;
 
 import com.microsoft.playwright.*;
 import com.microsoft.playwright.options.*;
 import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
 
-public class CF1RALT02E_LoginPage {
+public class LoginPage {
     private final Page page;
     private final String url = "https://manage.demo.goldenstateregistry.org/admin";
 
-    public CF1RALT02E_LoginPage(Page page) {
+    public LoginPage(Page page) {
         this.page = page;
     }
 
