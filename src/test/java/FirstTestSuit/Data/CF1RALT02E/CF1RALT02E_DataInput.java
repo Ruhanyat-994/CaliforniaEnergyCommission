@@ -42,7 +42,6 @@ public class CF1RALT02E_DataInput {
         page1.evaluate("() => { const s = document.querySelector('#climateZone'); s.removeAttribute('disabled'); s.querySelectorAll('option').forEach(o => o.removeAttribute('disabled')); s.value = '5'; s.dispatchEvent(new Event('change', { bubbles: true })); }");
         page1.evaluate("() => { const s = document.querySelector('#A04_ResidentialLowriseBuildingType'); s.removeAttribute('disabled'); s.querySelectorAll('option').forEach(o => o.removeAttribute('disabled')); s.value = 'SingleFamily'; s.dispatchEvent(new Event('change', { bubbles: true })); }");
 
-        // Here I will do some changes
         Locator saveBtn = page1.getByRole(AriaRole.BUTTON, new Page.GetByRoleOptions().setName("Save ").setExact(true));
         saveBtn.click();
     }

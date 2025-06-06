@@ -13,21 +13,17 @@ public class LoginPage {
     }
 
     public void login(String email, String password) {
-        // Navigate and assert URL
         page.navigate(url);
         assertThat(page).hasURL(url);
 
-        // Fill email
         Locator emailField = page.getByRole(AriaRole.TEXTBOX, new Page.GetByRoleOptions().setName("Enter email..."));
         assertThat(emailField).isVisible();
         emailField.fill(email);
 
-        // Fill password
         Locator passwordField = page.getByRole(AriaRole.TEXTBOX, new Page.GetByRoleOptions().setName("Password"));
         assertThat(passwordField).isVisible();
         passwordField.fill(password);
 
-        // Click Sign In
         page.getByRole(AriaRole.BUTTON, new Page.GetByRoleOptions().setName("Sign In")).click();
     }
 }

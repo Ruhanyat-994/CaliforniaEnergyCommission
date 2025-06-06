@@ -40,9 +40,6 @@ public class CF2RMCH01BE_DataInput {
         page1.getByRole(AriaRole.TEXTBOX, new Page.GetByRoleOptions().setName("Output (Btu/h)")).click();
         page1.getByRole(AriaRole.TEXTBOX, new Page.GetByRoleOptions().setName("Output (Btu/h)")).fill("5000");
         page1.getByRole(AriaRole.TEXTBOX, new Page.GetByRoleOptions().setName("Tonnage...")).click();
-//            page1.getByRole(AriaRole.TEXTBOX, new Page.GetByRoleOptions().setName("Enter notes...")).click();
-//            page1.getByRole(AriaRole.TEXTBOX, new Page.GetByRoleOptions().setName("Enter notes...")).fill("N/A");
-
 
     }
 

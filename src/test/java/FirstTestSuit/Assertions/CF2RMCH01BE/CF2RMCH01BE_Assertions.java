@@ -58,7 +58,6 @@ public class CF2RMCH01BE_Assertions {
 
         Locator squareFeet = page1.getByPlaceholder("Square feet...").nth(0);
 
-       // Locator squareFeet = page1.getByRole(AriaRole.TEXTBOX, new Page.GetByRoleOptions().setName(""));
         errorHandling(() -> {
             assertThat(squareFeet).hasValue("3000");
         }, "'Square Feet' field has '3000'");
@@ -89,7 +88,6 @@ public class CF2RMCH01BE_Assertions {
             assertThat(outputBTU).hasValue("5000");
         }, "'Output (Btu/h)' field has '5000'");
 
-        // Optional: Add sleep to observe the browser before closing
         try {
             Thread.sleep(3000);
         } catch (InterruptedException e) {
